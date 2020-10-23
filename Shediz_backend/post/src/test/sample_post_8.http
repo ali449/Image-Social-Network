@@ -1,0 +1,214 @@
+//Inside___ 1
+POST http://localhost:8080/post
+Authorization: Bearer qkDoqq3vv6Adw8EZzdkHZmQBYSenli72Citoh/P5uxXVodXOza3wWKnp/VoEy/Lu
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+یه شوخی جالب ... خدایی از این زاویه به سی شارپ نگاه کرده بودین ؟
+.
+آموزش و انجام پروژه های برنامه نویسی
+.
+C,C++,C#,Python
+.
+#تکنولوژی
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_20-16-40_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/tech/2020-09-19_20-16-40_UTC.jpg
+--WebAppBoundary--
+###
+
+//Inside___ 2
+POST http://localhost:8080/post
+Authorization: Bearer qkDoqq3vv6Adw8EZzdkHZmQBYSenli72Citoh/P5uxXVodXOza3wWKnp/VoEy/Lu
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+\#تکنولوژی
+
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_20-32-42_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/tech/2020-09-19_20-32-42_UTC.jpg
+--WebAppBoundary--
+###
+
+//Inside___ 3
+POST http://localhost:8080/post
+Authorization: Bearer qkDoqq3vv6Adw8EZzdkHZmQBYSenli72Citoh/P5uxXVodXOza3wWKnp/VoEy/Lu
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+قسمت سوم باتری_نانو_الماس :
+کمپانی NDB در کالیفرنیا می گوید مشکل شارژ باتری ها را حل کرده است آنها از ضایعات رادیو اکتیو وبا فناوری نانو الماس ها ساخته شده اند که در مقیاس کوچک آن تا بیست وهشت هزار سال , احتیاج به شارژ مجدد ندارد در واقع یک ژنراتور هسته ای کوچک است که به شکل یک باتری در می آید بدین صورت که  گرافیت رادیو اکتیوی پسماندهای هسته ای نیروگاه ها را استخراج میکندو الماس هایی کوچک با مقدار کربن های متفاوت , بستگی به نوع سفارش ,  می سازد وآنها را محصور می سازد . آیا میخواهید مراحل ساخت این باتری را ببینید ؟  قسمت بعدی را مطالعه کنید !
+#زمین #فضا #تکنولوژی
+
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_20-35-18_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/tech/2020-09-19_20-35-18_UTC.jpg
+--WebAppBoundary--
+###
+
+//Inside___ 4
+POST http://localhost:8080/post
+Authorization: Bearer qkDoqq3vv6Adw8EZzdkHZmQBYSenli72Citoh/P5uxXVodXOza3wWKnp/VoEy/Lu
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+.
+⌚اپل واچ سری ۶ ظاهری شبیه نسل قبلی دارد ولی می‌تواند سطح اکسیژن خون را از روی مچ شما اندازه‌گیری کند. این کار با کمک سنسورهای مادون قرمز و الگوریتم‌های پیشرفته‌ای انجام می‌شود که رنگ خون کاربر را شناسایی کرده و با کمک آن میزان اکسیژن را مشخص می‌کنند. اپل واچ سری ۶ می‌تواند به‌صورت دستی هر ۱۵ ثانیه اکسیژن خون را اندازه‌گیری کند.
+.
+⚙مشخصات و قابلیت ها :
+🔸️سیستم عامل watchOS 7
+🔸️سنسور اندازه‌گیری ارتفاع
+🔸️پردازنده‌ دوهسته‌ای S6 با ۲۰ درصد سرعت بیشتر از نسل قبل
+🔸️نمایشگر با ۲/۵ برابر روشنایی بیشتر
+🔸️دو سایز ۴۰ و ۴۴ میلی‌متری
+🔸️مدل های آلومینیوم آبی، استیل ضدزنگ طلایی، استیل ضدزنگ گرافیتی و قرمز
+
+#فناوری #تکنولوژی
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_21-13-12_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/tech/2020-09-19_21-13-12_UTC.jpg
+--WebAppBoundary--
+###
+
+//Inside___ 5
+POST http://localhost:8080/post
+Authorization: Bearer qkDoqq3vv6Adw8EZzdkHZmQBYSenli72Citoh/P5uxXVodXOza3wWKnp/VoEy/Lu
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+\#تکنولوژی
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_21-44-51_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/tech/2020-09-19_21-44-51_UTC.jpg
+--WebAppBoundary--
+###
+
+//Inside___ 6
+POST http://localhost:8080/post
+Authorization: Bearer qkDoqq3vv6Adw8EZzdkHZmQBYSenli72Citoh/P5uxXVodXOza3wWKnp/VoEy/Lu
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+📸 آموزش ساخت قلم_لمسی
+( آموزش شماره ی چهار )
+.
+آموزش در پست بعدی ...
+.
+.
+.
+.
+#تکنولوژی
+
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_21-49-01_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/tech/2020-09-19_21-49-01_UTC.jpg
+--WebAppBoundary--
+###
+
+//Inside___ 7
+POST http://localhost:8080/post
+Authorization: Bearer qkDoqq3vv6Adw8EZzdkHZmQBYSenli72Citoh/P5uxXVodXOza3wWKnp/VoEy/Lu
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+💕تگ کنید کسی را که دوست دارید باهاش تو این بهشت زیبا باشید 💕
+
+.
+.
+#طبیعت #منظره #طبیعتگردی #آرامش #جنگل
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_19-13-55_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/view/2020-09-19_19-13-55_UTC.jpg
+--WebAppBoundary--
+###
+
+//Inside___ 8
+POST http://localhost:8080/post
+Authorization: Bearer qkDoqq3vv6Adw8EZzdkHZmQBYSenli72Citoh/P5uxXVodXOza3wWKnp/VoEy/Lu
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+پارک ساحلی برکه دزفول
+عکس: محمد آذرکیش
+.
+همیشه وقتی یه جای جدید به شهر اضافه میشه سعی می کنم با گرفتن عکس های متنوع و انتشارشون، سهمی در معرفی بهتر دزفول داشته باشم. یکی از پارک های ساحلی جدید دزفول، پارک ساحلی برکه هست که در کنار پل چهارم دزفول قرار داره. تا الان که کسی معرفیش نکرده درست امیدوارم با عکس ها و کلیپ هایی که ازش گرفتم خوب معرفی بشه. روزهای آینده بازم ازش منتشر می کنم.
+تو موبایلگرافی و دزفول گردی هم ازش عکس و کلیپ گذاشتم.
+می تونین ببینید.
+ممنون میشم با نظراتتون حامی باشین.
+#منظره #گردشگری
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_19-14-35_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/view/2020-09-19_19-14-35_UTC.jpg
+--WebAppBoundary--
+###
+
+//Inside___ 9
+POST http://localhost:8080/post
+Authorization: Bearer qkDoqq3vv6Adw8EZzdkHZmQBYSenli72Citoh/P5uxXVodXOza3wWKnp/VoEy/Lu
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+😍😍😍😍😍
+.
+#طبیعت #والپیپر #منظره
+
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_19-17-35_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/view/2020-09-19_19-17-35_UTC.jpg
+--WebAppBoundary--
+###

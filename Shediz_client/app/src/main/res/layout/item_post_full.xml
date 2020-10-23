@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Circular profile image -->
+    <FrameLayout
+        android:id="@+id/postOwnerPicLayout"
+        android:layout_width="@dimen/profile_img"
+        android:layout_height="@dimen/profile_img"
+        android:layout_marginTop="@dimen/space_post"
+        android:layout_marginStart="@dimen/space_low"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/postOwnerPic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            tools:ignore="ContentDescription"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/circle_crop"
+            tools:ignore="ContentDescription"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/postOwnerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textColor="@color/defaultColor"
+        android:textSize="@dimen/normal_text"
+        android:layout_marginTop="@dimen/space_post"
+        android:layout_marginStart="@dimen/space_low"
+        app:layout_constraintStart_toEndOf="@id/postOwnerPicLayout"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/postDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2020-07-30"
+        android:textSize="@dimen/normal_text"
+        android:layout_marginStart="@dimen/space_low"
+        app:layout_constraintStart_toEndOf="@id/postOwnerPicLayout"
+        app:layout_constraintTop_toBottomOf="@id/postOwnerName" />
+
+    <ImageView
+        android:id="@+id/optionsBtn"
+        android:layout_width="@dimen/ic_normal"
+        android:layout_height="@dimen/ic_normal"
+        android:src="@drawable/ic_more"
+        app:layout_constraintBottom_toTopOf="@id/postImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/defaultColor"
+        tools:ignore="ContentDescription"/>
+
+    <ImageView
+        android:id="@+id/postImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/test"
+        android:layout_marginTop="@dimen/space_low"
+        android:paddingBottom="@dimen/space_post"
+        android:contentDescription="@string/post_img"
+        app:layout_constraintTop_toBottomOf="@id/postOwnerPicLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/likeBtn"
+        android:layout_width="@dimen/ic_normal"
+        android:layout_height="@dimen/ic_normal"
+        android:src="@drawable/ic_like"
+        android:layout_marginStart="@dimen/space_post_h"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/postImage"
+        android:contentDescription="@string/like_btn"/>
+
+    <ImageView
+        android:id="@+id/commentBtn"
+        android:layout_width="@dimen/ic_normal"
+        android:layout_height="@dimen/ic_normal"
+        android:src="@drawable/ic_comment"
+        android:layout_marginStart="@dimen/space_post_h"
+        app:layout_constraintStart_toEndOf="@id/likeBtn"
+        app:layout_constraintTop_toBottomOf="@id/postImage"
+        android:contentDescription="@string/comment_btn"/>
+
+    <ImageView
+        android:id="@+id/shareBtn"
+        android:layout_width="@dimen/ic_normal"
+        android:layout_height="@dimen/ic_normal"
+        android:src="@drawable/ic_share"
+        android:layout_marginEnd="@dimen/space_post_h"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/postImage"
+        android:contentDescription="@string/share_btn"/>
+
+    <!-- Horizontal line-->
+    <Space
+        android:id="@+id/hline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/rectangle"
+        app:layout_constraintTop_toBottomOf="@id/likeBtn" />
+
+    <TextView
+        android:id="@+id/numLikesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1000000 likes"
+        android:textColor="@color/defaultColor"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/space_low"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hline" />
+
+    <TextView
+        android:id="@+id/contentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sample_text"
+        android:textColor="@color/defaultColor"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:paddingBottom="@dimen/space_low"
+        app:layout_constraintTop_toBottomOf="@id/numLikesText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

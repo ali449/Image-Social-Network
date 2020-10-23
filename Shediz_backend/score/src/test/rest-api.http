@@ -1,0 +1,54 @@
+POST http://localhost:8083/add_post?owner=ali&pid=p1
+
+###
+
+DELETE http://localhost:8083/rm_post?pid=p2
+
+###
+
+POST http://localhost:8080/score/add_like?pid=p1
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+
+###
+
+DELETE http://localhost:8080/score/rm_like?pid=p1
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+
+###
+
+POST http://localhost:8080/score/add_comment?pid=p1
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+Content-Type: application/json
+
+{
+  "text": "چه خبر؟"
+}
+
+###
+
+DELETE http://localhost:8080/score/rm_comment?cid=25
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+
+###
+
+GET http://localhost:8083/s/likes?pid=p1
+
+###
+GET http://localhost:8080/score/s/likes_pid_list
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "ids": ["RlItVHQBkpML2bUxlEig", "Q1ItVHQBkpML2bUxhEhY"]
+}
+
+###
+
+GET http://localhost:8080/score/comments?pid=Q1ItVHQBkpML2bUxhEhY&page=0
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+
+###
+
+GET http://localhost:8080/score/s/score?pid=dQnH2XQBEucamdjtfane
+
+###

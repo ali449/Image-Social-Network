@@ -1,0 +1,45 @@
+server:
+  port: 8082
+
+org:
+  neo4j:
+    driver:
+      uri: neo4j://localhost:7687
+      authentication:
+        username: neo4j
+        password: secret
+
+gateway-secret: gateway-secret
+
+rabbitmq:
+  exchangeName: shediz.exchange
+  queueName: usp-r.queue
+  userKey: user.key
+  scoreKey: score.key
+  postKey: post.key
+
+spring:
+  application:
+    name: recommender-service
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
+  data:
+    neo4j:
+      repositories:
+        type: reactive
+
+logging:
+  level:
+    org:
+      neo4j:
+        springframework:
+          data: DEBUG
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka

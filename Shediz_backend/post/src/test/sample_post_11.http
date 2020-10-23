@@ -1,0 +1,56 @@
+//milad 1
+POST http://localhost:8080/post
+Authorization: Bearer rVCF5dwHpbKDk81OkbVdaltkv/8fdHXElv5QwivodN2Lt4Y1qa+p13iTz+O8ZaxP
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_21-52-33_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/view/2020-09-19_21-52-33_UTC.jpg
+--WebAppBoundary--
+###
+
+//milad 2
+POST http://localhost:8080/post
+Authorization: Bearer rVCF5dwHpbKDk81OkbVdaltkv/8fdHXElv5QwivodN2Lt4Y1qa+p13iTz+O8ZaxP
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_21-52-47_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/view/2020-09-19_21-52-47_UTC.jpg
+--WebAppBoundary--
+###
+
+//milad 3
+POST http://localhost:8080/post
+Authorization: Bearer rVCF5dwHpbKDk81OkbVdaltkv/8fdHXElv5QwivodN2Lt4Y1qa+p13iTz+O8ZaxP
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_21-53-17_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/view/2020-09-19_21-53-17_UTC.jpg
+--WebAppBoundary--
+###

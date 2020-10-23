@@ -1,0 +1,83 @@
+PUT http://localhost:8080
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+
+###
+
+POST http://localhost:8080/register?username=test&password=1234&bio=Bioo
+
+###
+
+DELETE http://localhost:8080/delete_account?username=divar&password=1234
+Authorization: Bearer NAh7P6MKo/n5N+h2+jPv844qfwF+3mXAjE92bP6ntEHAxGT5RT7Q106qnL2hwCMr
+
+###
+
+POST http://localhost:8080/login?username=test&password=1234
+
+###
+
+DELETE http://localhost:8080/logout
+Authorization: Bearer 5080cafb-7f27-460c-ad98-3b79e3cca1c7
+
+###
+
+PUT http://localhost:8080/edit_bio?bio
+Authorization: Bearer 5080cafb-7f27-460c-ad98-3b79e3cca1c7
+
+###
+GET http://localhost:8080/s/isFollowing/root/test
+
+###
+
+PUT http://localhost:8080/request_follow/admin
+Authorization: Bearer me
+
+###
+
+PUT http://localhost:8080/request_follow_result/test?has_accept=true
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+
+###
+
+GET http://localhost:8080/following?page=0
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+
+###
+
+GET http://localhost:8080/s/following/admin
+Secret: gateway-secret
+
+###
+
+GET http://localhost:8080/s/multi_user?userNames=admin,root
+
+###
+GET http://localhost:8080/s/user/admin
+
+###
+GET http://localhost:8080/s/pic_profile/admin
+
+###
+GET http://localhost:8080/user_with_follow/test
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+
+###
+
+GET http://localhost:8080/s/search_user?q=ad
+
+###
+
+GET http://localhost:8080/current
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+
+###
+
+PUT http://localhost:8080/request_follow/test
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+
+###
+
+DELETE http://localhost:8080/request_unfollow/test
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+
+###

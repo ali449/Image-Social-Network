@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">10sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">11sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="space_low">8dp</dimen>
+    <dimen name="space_high">24dp</dimen>
+    <dimen name="title_text">36sp</dimen>
+    <dimen name="normal_text">16sp</dimen>
+
+    <dimen name="ic_normal">32dp</dimen>
+
+    <dimen name="space_post">12dp</dimen>
+    <dimen name="space_post_h">6dp</dimen>
+
+    <dimen name="profile_img">40dp</dimen>
+</resources>

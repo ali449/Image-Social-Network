@@ -1,0 +1,74 @@
+//Aramesh -> Azarakhsh
+PUT http://localhost:8080/request_follow/azarakhsh
+Authorization: Bearer VsLLLRC5Fj5CLecQl6Faui1ordB0PIDEpvjZkovL//5NE15gBnOT9EIlcv+QBib3
+###
+
+//Aramesh -> Galaxy
+PUT http://localhost:8080/request_follow/galaxy
+Authorization: Bearer VsLLLRC5Fj5CLecQl6Faui1ordB0PIDEpvjZkovL//5NE15gBnOT9EIlcv+QBib3
+###
+
+//Aramesh -> Inside___
+PUT http://localhost:8080/request_follow/inside___
+Authorization: Bearer VsLLLRC5Fj5CLecQl6Faui1ordB0PIDEpvjZkovL//5NE15gBnOT9EIlcv+QBib3
+###
+
+//Aramesh -> Phanoos
+PUT http://localhost:8080/request_follow/phanoos
+Authorization: Bearer VsLLLRC5Fj5CLecQl6Faui1ordB0PIDEpvjZkovL//5NE15gBnOT9EIlcv+QBib3
+###
+
+//aria -> milad
+PUT http://localhost:8080/request_follow/milad
+Authorization: Bearer GVQzeKzn3S37sbKXorMHCO3EjndjUFFEXMEb01DYDxA3CPfdQbiqG5PJlGin/Lpl
+###
+
+//aria -> Famile_Door
+PUT http://localhost:8080/request_follow/famile_door
+Authorization: Bearer GVQzeKzn3S37sbKXorMHCO3EjndjUFFEXMEb01DYDxA3CPfdQbiqG5PJlGin/Lpl
+###
+
+//Famile_Door -> Inside___
+PUT http://localhost:8080/request_follow/inside___
+Authorization: Bearer 4WfSwStKHAoPjFF/MgjQDKbiwMgPof0EDgNJBhzoYrhpryDHGxM4qYIzsy7vo+Rk
+###
+
+//Galaxy -> max_pic
+PUT http://localhost:8080/request_follow/max_pic
+Authorization: Bearer d5xJEsW5jwvblLN80u+JTpXagLtYID9xSvisBvg9LOEEkq0V3bE2n19VVoz468L8
+###
+
+//Galaxy -> Azarakhsh
+PUT http://localhost:8080/request_follow/azarakhsh
+Authorization: Bearer d5xJEsW5jwvblLN80u+JTpXagLtYID9xSvisBvg9LOEEkq0V3bE2n19VVoz468L8
+###
+
+//max_pic -> Galaxy
+PUT http://localhost:8080/request_follow/galaxy
+Authorization: Bearer FaZI3j20Hf9JoFxzcN98COZsvEBVeW9TAjI64MtF2OfbY1tF0Qrf8wuMAO9timNo
+###
+
+//Me_You -> CityAway
+PUT http://localhost:8080/request_follow/cityaway
+Authorization: Bearer a8ZxXbfCvlqSc1NPF16Qg2y5Riu2cj4hXN0C8kGBxa56g1rYtOdHiMXOzfrw49zr
+###
+
+//Me_You -> HighTech
+PUT http://localhost:8080/request_follow/hightech
+Authorization: Bearer a8ZxXbfCvlqSc1NPF16Qg2y5Riu2cj4hXN0C8kGBxa56g1rYtOdHiMXOzfrw49zr
+###
+
+//milad -> aria
+PUT http://localhost:8080/request_follow/aria
+Authorization: Bearer rVCF5dwHpbKDk81OkbVdaltkv/8fdHXElv5QwivodN2Lt4Y1qa+p13iTz+O8ZaxP
+###
+
+//milad -> Me_You
+PUT http://localhost:8080/request_follow/me_you
+Authorization: Bearer rVCF5dwHpbKDk81OkbVdaltkv/8fdHXElv5QwivodN2Lt4Y1qa+p13iTz+O8ZaxP
+###
+
+//Phanoos -> Me_You
+PUT http://localhost:8080/request_follow/me_you
+Authorization: Bearer x/7eW4pWS2NPh0Ka5CF6SMOBpja8bPwBSw7RsbnC9TxvduSwt1MbxQk2pBUwmf4H
+###

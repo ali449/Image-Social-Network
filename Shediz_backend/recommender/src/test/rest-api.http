@@ -1,0 +1,74 @@
+GET http://localhost:8082/?page=0
+Secret: gateway-secret
+UserName: phanoos
+
+###
+
+
+GET http://localhost:8080/recommender/?page=0
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+
+###
+
+POST http://localhost:8082/add_user?username=Davood
+
+###
+POST http://localhost:8082/add_post
+Content-Type: application/json
+
+{
+  "username": "Davood",
+  "pid": "ali"
+}
+
+###
+POST http://localhost:8082/add_post
+Content-Type: application/json
+
+{
+  "username": "Davood",
+  "pid": "test",
+  "tags": ["great!"]
+}
+
+###
+
+DELETE http://localhost:8082/rm_post?pid=test
+
+###
+
+DELETE http://localhost:8082/rm_user?username=Davood
+
+###
+
+PUT http://localhost:8082/approve?username=Davood&pid=p5
+
+###
+
+PUT http://localhost:8080/recommender/searched_tag
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+Content-Type: application/json
+
+{
+  "tag": "great",
+  "count": 1
+}
+
+###
+
+DELETE http://localhost:8080/recommender/rm_searched_tag_all
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+
+###
+
+PUT http://localhost:8082/update_score?pid=test&score=1
+
+###
+
+PUT http://localhost:8082/add_user_rp?username=u0
+
+###
+
+PUT http://localhost:8082/reduce_user_rp?username=u0
+
+###

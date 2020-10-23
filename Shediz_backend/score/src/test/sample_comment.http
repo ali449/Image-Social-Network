@@ -1,0 +1,144 @@
+//Aramesh -> Galaxy
+POST http://localhost:8080/score/add_comment?pid=kgnH2XQBEucamdjtw6kL
+Authorization: Bearer VsLLLRC5Fj5CLecQl6Faui1ordB0PIDEpvjZkovL//5NE15gBnOT9EIlcv+QBib3
+Content-Type: application/json
+
+{
+  "text": "👌😍بسیار زیباا😍👌"
+}
+
+###
+
+//Aramesh -> Phanoos
+POST http://localhost:8080/score/add_comment?pid=1wnI2XQBEucamdjtsKks
+Authorization: Bearer VsLLLRC5Fj5CLecQl6Faui1ordB0PIDEpvjZkovL//5NE15gBnOT9EIlcv+QBib3
+Content-Type: application/json
+
+{
+  "text": "آوینا: پاک و زلال همچون آب"
+}
+
+###
+
+//milad -> Max_Pic
+POST http://localhost:8080/score/add_comment?pid=twnI2XQBEucamdjtSqn_
+Authorization: Bearer rVCF5dwHpbKDk81OkbVdaltkv/8fdHXElv5QwivodN2Lt4Y1qa+p13iTz+O8ZaxP
+Content-Type: application/json
+
+{
+  "text": "👌🔥"
+}
+
+###
+
+//Inside___ -> Azarakhsh
+POST http://localhost:8080/score/add_comment?pid=XAnH2XQBEucamdjtK6lg
+Authorization: Bearer qkDoqq3vv6Adw8EZzdkHZmQBYSenli72Citoh/P5uxXVodXOza3wWKnp/VoEy/Lu
+Content-Type: application/json
+
+{
+  "text": "طرف خروجی خازن با فلش یا بانوار مشخص شده باید ورود وخروج رعایت بشه وگرنه 🔥🔥"
+}
+
+###
+
+//CityAway -> Famile_Door
+POST http://localhost:8080/score/add_comment?pid=dQnH2XQBEucamdjtfane
+Authorization: Bearer uE6spJK1+X9QWqTEgtABq9z4aaBmwRfonHj2/pzWv7zlJ5T8Q9YqjAcBWBBz5AgK
+Content-Type: application/json
+
+{
+  "text": "آمپرزیادمیکشه وموجب سوختن میشه"
+}
+
+###
+
+//Aramesh -> HighTech
+POST http://localhost:8080/score/add_comment?pid=ngnH2XQBEucamdjt7akI
+Authorization: Bearer VsLLLRC5Fj5CLecQl6Faui1ordB0PIDEpvjZkovL//5NE15gBnOT9EIlcv+QBib3
+Content-Type: application/json
+
+{
+  "text": "اگر پلاریته انها رعایت نشود جریان‌زیادی به ان وارد کرده و منفجر میشود(اینا بستگی به ولتاژ و ظرفیت داره)اگر ولتاژ خازن خیلی بالاتر باشه از منبع تغذیه اتفاقی نمیافته فقط داغ میکنه چون به صورت مقاومت عمل میکنه"
+}
+
+###
+
+//aria -> HighTech
+POST http://localhost:8080/score/add_comment?pid=ngnH2XQBEucamdjt7akI
+Authorization: Bearer GVQzeKzn3S37sbKXorMHCO3EjndjUFFEXMEb01DYDxA3CPfdQbiqG5PJlGin/Lpl
+Content-Type: application/json
+
+{
+  "text": "به شدت در مدار جریان میکشه داغ میشه وسر انجام در زمان کوتاهی می ترکه"
+}
+
+###
+
+//Azarakhsh -> HighTech
+POST http://localhost:8080/score/add_comment?pid=ngnH2XQBEucamdjt7akI
+Authorization: Bearer 3Cwo2kMW6YnfIuv1NKkWA0dxCjIkLyHc8IEyJ9FoqE1ms1GWV7I/Tg/gwetx3T1e
+Content-Type: application/json
+
+{
+  "text": "باید فاتحه شو بخونی"
+}
+
+###
+
+//CityAway -> HighTech
+POST http://localhost:8080/score/add_comment?pid=ngnH2XQBEucamdjt7akI
+Authorization: Bearer uE6spJK1+X9QWqTEgtABq9z4aaBmwRfonHj2/pzWv7zlJ5T8Q9YqjAcBWBBz5AgK
+Content-Type: application/json
+
+{
+  "text": "جریان نشتی زیادی میکشه  و خازن داغ میشه و آسیب میبینه و خاصیت خازنیش رو از دست میده"
+}
+
+###
+
+//Famile_Dorr -> HighTech
+POST http://localhost:8080/score/add_comment?pid=ngnH2XQBEucamdjt7akI
+Authorization: Bearer 4WfSwStKHAoPjFF/MgjQDKbiwMgPof0EDgNJBhzoYrhpryDHGxM4qYIzsy7vo+Rk
+Content-Type: application/json
+
+{
+  "text": "اگر ولتاژ خازن کمتر از ولتاژ منبع تغذیه باشد، مواد الکترولیت شیمیایی خازن به خارج نشت خواهد کرد و باد خواهد نمود و خراب خواهد شد و اگر ولتاژ منبع اعم از رعایت قطب خازن اجرا شده باشد یا نه، خواهد ترکید. خازن  جریان dc را عبور نمیدهد و در ac جریان فرکانس را عبور می دهد. 🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹"
+}
+
+###
+
+//Galaxy -> HighTech
+POST http://localhost:8080/score/add_comment?pid=ngnH2XQBEucamdjt7akI
+Authorization: Bearer d5xJEsW5jwvblLN80u+JTpXagLtYID9xSvisBvg9LOEEkq0V3bE2n19VVoz468L8
+Content-Type: application/json
+
+{
+  "text": "یه صدایی از میاد و دیگه خازنی وجود نخواهد داشت 😂 البته همراه با بخار وبوی نا خوشایند"
+}
+
+###
+
+//Inside___ -> HighTech
+POST http://localhost:8080/score/add_comment?pid=ngnH2XQBEucamdjt7akI
+Authorization: Bearer qkDoqq3vv6Adw8EZzdkHZmQBYSenli72Citoh/P5uxXVodXOza3wWKnp/VoEy/Lu
+Content-Type: application/json
+
+{
+  "text": "صفحات عایقی در اثر اختلاف پتانسیل اشتباه تبدیل به هادی شده احتمال باد کردن و ترکیدن هم هست"
+}
+
+###
+
+
+//Me_You -> HighTech
+POST http://localhost:8080/score/add_comment?pid=ngnH2XQBEucamdjt7akI
+Authorization: Bearer a8ZxXbfCvlqSc1NPF16Qg2y5Riu2cj4hXN0C8kGBxa56g1rYtOdHiMXOzfrw49zr
+Content-Type: application/json
+
+{
+  "text": "عالی"
+}
+
+###
+

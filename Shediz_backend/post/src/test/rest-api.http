@@ -1,0 +1,86 @@
+
+GET http://localhost:8081/ids
+Content-Type: application/json
+
+{
+  "ids": ["M2Kjg3EBoBTeOdNQoFWO", "NWIahHEBoBTeOdNQPFU0"]
+}
+
+###
+
+POST http://localhost:8080/upload_pic
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a03b855fe4a
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="a.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Pictures/a.jpg
+--WebAppBoundary--
+
+###
+
+GET http://localhost:8080/post/s/ids
+Content-Type: application/json
+
+{
+  "ids": ["HAnF2XQBEucamdjtlqmt","BosxunQBxtel9Ziuhily"]
+}
+###
+
+GET http://localhost:8080/post/s/tags/hello?page=0
+###
+
+GET http://localhost:8080/post/s/suggest_tags?t=طب&page=0
+###
+
+GET http://localhost:8081/s/suggest_tags?t=طب&page=0
+###
+
+GET http://localhost:8080/post/s/search_post?q=hello&page=0
+###
+
+GET http://localhost:8080/post/new_posts?page=0
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+
+###
+GET http://localhost:8080/post/new_posts?page=0
+Authorization: Bearer GVQzeKzn3S37sbKXorMHCO3EjndjUFFEXMEb01DYDxA3CPfdQbiqG5PJlGin/Lpl
+
+###
+
+GET http://localhost:8080/post/s/thumb_image/Q1ItVHQBkpML2bUxhEhY
+###
+
+GET http://localhost:8080/post/HAnF2XQBEucamdjtlqmt
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+
+###
+
+DELETE http://localhost:8080/post/0Qmt2XQBEucamdjtSaZy
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+###
+
+POST http://localhost:8080/post
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+This is #Sample_test and Sample_test for #my tags ❤ سلام
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="a.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Pictures/a.jpg
+--WebAppBoundary--
+
+###
+
+DELETE http://localhost:8080/post/all/admin
+Authorization: Bearer 5385d2c0-f277-4299-80b2-0a0
+###

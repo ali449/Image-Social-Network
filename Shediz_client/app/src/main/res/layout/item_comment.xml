@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginStart="@dimen/activity_horizontal_margin"
+    android:layout_marginEnd="@dimen/activity_horizontal_margin">
+
+    <!-- Circular profile image -->
+    <FrameLayout
+        android:id="@+id/commentUserImgLayout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <ImageView
+            android:id="@+id/commentUserImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            tools:ignore="ContentDescription"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/circle_crop"
+            tools:ignore="ContentDescription"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/userNameComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textColor="@color/defaultColor"
+        android:textStyle="bold"
+        android:textSize="@dimen/normal_text"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="@dimen/space_low"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/commentUserImgLayout"/>
+
+    <TextView
+        android:id="@+id/commentTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sample_text"
+        android:textSize="@dimen/normal_text"
+        android:textColor="@color/defaultColor"
+        android:layout_marginStart="@dimen/space_low"
+        app:layout_constraintTop_toBottomOf="@id/userNameComment"
+        app:layout_constraintStart_toEndOf="@id/commentUserImgLayout"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

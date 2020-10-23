@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingStart="@dimen/activity_horizontal_margin"
+    android:paddingEnd="@dimen/activity_horizontal_margin"
+    android:fitsSystemWindows="true"
+    tools:context=".view.LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/space_low"
+        android:layout_marginBottom="@dimen/space_high"
+        android:text="@string/app_name"
+        android:textSize="@dimen/title_text"
+        android:textColor="@color/defaultColor"/>
+
+    <ImageView
+        android:id="@+id/profilePic"
+        android:src="@drawable/ic_account_circle"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/profile_pic"
+        android:visibility="gone"
+        android:onClick="onImgCreateClicked"/>
+
+    <!-- UserName Label -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_low"
+        android:layout_marginBottom="@dimen/space_low">
+
+        <EditText
+            android:id="@+id/inputUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textNoSuggestions"
+            android:drawableStart="@drawable/ic_person"
+            android:hint="@string/username"
+            android:autofillHints="AUTOFILL_HINT_USERNAME"
+            android:maxLines="1" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Password Label -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_low"
+        android:layout_marginBottom="@dimen/space_low">
+
+        <EditText android:id="@+id/inputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/ic_lock"
+            android:hint="@string/password"
+            android:autofillHints="AUTOFILL_HINT_PASSWORD"
+            android:maxLines="1" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Confirm Password Label -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/parentConfirmPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_low"
+        android:layout_marginBottom="@dimen/space_low"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/inputConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/ic_lock"
+            android:hint="@string/confirm_password"
+            android:autofillHints="no"
+            android:maxLines="1" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Bio -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/parentBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_low"
+        android:layout_marginBottom="@dimen/space_low"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/inputBio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/bio_hint"
+            android:autofillHints="no"
+            android:maxLines="3"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/isPrivateBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/want_account_private"
+        android:visibility="gone"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_high"
+        android:layout_marginBottom="@dimen/space_high"
+        android:padding="12dp"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/sign_in"/>
+
+    <TextView
+        android:id="@+id/bottomTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account"
+        android:gravity="center"
+        android:textSize="@dimen/normal_text" />
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:imeOptions="actionSearch"
+        android:inputType="textAutoComplete|textAutoCorrect"
+        android:maxLines="1"
+        android:hint="@string/write_something"
+        android:completionThreshold="0"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- Start toggle group -->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/groupCardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_low"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="2dp"
+        app:layout_constraintTop_toBottomOf="@id/autoCompleteTV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <RadioGroup
+            android:id="@+id/searchGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/toggleBtn0"
+                style="@style/ToggleButton"
+                android:textOff="@string/posts"
+                android:textOn="@string/posts"
+                android:gravity="center"
+                android:checked="true"/>
+
+            <ToggleButton
+                android:id="@+id/toggleBtn1"
+                style="@style/ToggleButton"
+                android:textOff="@string/tags"
+                android:textOn="@string/tags"
+                android:gravity="center"/>
+
+            <ToggleButton
+                android:id="@+id/toggleBtn2"
+                style="@style/ToggleButton"
+                android:textOff="@string/users"
+                android:textOn="@string/users"
+                android:gravity="center"/>
+
+        </RadioGroup>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- End toggle group -->
+
+    <!-- Horizontal line-->
+    <View
+        android:id="@+id/hline4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/toolbar_shadow"
+        android:layout_marginTop="@dimen/space_low"
+        app:layout_constraintTop_toBottomOf="@id/groupCardView" />
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refreshLayoutSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/hline4">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/searchRV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:scrollbars="vertical" />
+
+            <ProgressBar
+                android:id="@+id/progressSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

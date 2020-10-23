@@ -1,0 +1,75 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:@project.basedir@/src/main/db/users.db
+    username:
+    password:
+  jpa:
+    database-platform: com.shediz.gateway.database.dialect.SQLiteDialect
+    show-sql: true
+    properties:
+      hibernate:
+        format-sql: true
+
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2KB
+      max-file-size: 2MB
+      max-request-size: 3MB
+
+upload-dir: gateway/src/main/db
+
+# also we most use firewall to avoid direct call microservices
+gateway-secret: gateway-secret
+
+rabbitmq:
+  exchangeName: shediz.exchange
+  queue1Name: usp-r.queue # Publisher(s): user, score, post - Subscriber(s): Recommender
+  queue2Name: u-sp.queue # just for delete account
+  queue3Name: u-c.queue # just for send follow request to client
+  routing1Key: user1.key # for queue1
+  routing2Key: user2.key # for queue2
+  routing3Key: user3.key # for queue3
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+ribbon:
+#  eureka:
+#    enabled: false
+  ReadTimeout: 5000
+  SocketTimeout: 5000
+
+
+zuul:
+  host:
+    connect-timeout-millis: 5000
+    socket-timeout-millis: 5000
+  ignored-services: '*'
+  routes:
+    post-service:
+      path: /post/**
+      serviceId: post-service
+      stripPrefix: true
+    recommender-service:
+      path: /recommender/**
+      serviceId: recommender-service
+      stripPrefix: true
+    score-service:
+      path: /score/**
+      serviceId: score-service
+      stripPrefix: true

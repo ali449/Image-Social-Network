@@ -1,0 +1,187 @@
+//HighTech 1
+POST http://localhost:8080/post
+Authorization: Bearer VYbRjBw4NMtNwgFQLLWpcV1s16a+PZyklTk5zxxeBmeVWJHtSTBhibbGoiACKQ3M
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+را با داشته های خود بسازید
+#موفقیت
+با ابزار #تکنولوژی
+
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_18-27-56_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/tech/2020-09-19_18-27-56_UTC.jpg
+--WebAppBoundary--
+###
+
+//HighTech 2
+POST http://localhost:8080/post
+Authorization: Bearer VYbRjBw4NMtNwgFQLLWpcV1s16a+PZyklTk5zxxeBmeVWJHtSTBhibbGoiACKQ3M
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+‌
+پاسخ را کامنت کنید
+به دو نفر از دوستان فایل آموزشی بانک خازنی اهدا میشود (پاسخ درست)
+‌
+❤ لایک و فالو
+‌
+#تکنولوژی
+
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_19-12-23_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/tech/2020-09-19_19-12-23_UTC.jpg
+--WebAppBoundary--
+###
+
+//HighTech 3
+POST http://localhost:8080/post
+Authorization: Bearer VYbRjBw4NMtNwgFQLLWpcV1s16a+PZyklTk5zxxeBmeVWJHtSTBhibbGoiACKQ3M
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+تلویزیون قابل حمل سونی سال ۱۹۶۰
+Model: TV8-301 Potable
+#تکنولوژی
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_19-26-07_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/tech/2020-09-19_19-26-07_UTC.jpg
+--WebAppBoundary--
+###
+
+//HighTech 4
+POST http://localhost:8080/post
+Authorization: Bearer VYbRjBw4NMtNwgFQLLWpcV1s16a+PZyklTk5zxxeBmeVWJHtSTBhibbGoiACKQ3M
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+‌
+🔸آمازفیت بند 5 با سنسور سنجش اکسیژن خون معرفی شد؛
+‌
+📰این دستبند هوشمند متعلق به یکی از زیرمجموعه‌های شرکت شیائومی محسوب می شود و این بار علاوه بر مجهز شدن به دستیار صوتی الکسا از قابلیت هایی نظیر سنجش میزان اکسیژن خون (SPO2) و دستیار صوتی الکسای آمازون نیز بهره مند شده است.
+‌
+📰آمازفیت بند 5 دارای یک نمایشگر لمسی 1.1 اینچی AMOLED بوده و با پشتیبانی از ۱۱ حالت ورزشی دارای ۴۵ واچ‌فیس مختلف است. البته حسگر سنجش ضربان قلب و سنجش میزان استرس برای پایش کیفیت خواب را هم نمی توان از یاد برد!
+‌
+📰در آخر باید گفت که این دستبند از ۲۱ سپتامبر با قیمت ۴۵ دلار در سایت آمازون در آمریکا موجود خواهد بود.
+‌
+آیدیجی‌مَگ
+‌‌
+===============
+ #تکنولوژی
+
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_19-30-19_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/tech/2020-09-19_19-30-19_UTC.jpg
+--WebAppBoundary--
+###
+
+//HighTech 5
+POST http://localhost:8080/post
+Authorization: Bearer VYbRjBw4NMtNwgFQLLWpcV1s16a+PZyklTk5zxxeBmeVWJHtSTBhibbGoiACKQ3M
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+چقدر آرامش در این نقاشی هست
+ سرعت و شتاب تکنولوژی امروز آرامش را از ما گرفته
+#تکنولوژی #آرامش
+
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_19-30-38_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/tech/2020-09-19_19-30-38_UTC.jpg
+--WebAppBoundary--
+###
+
+//HighTech 6
+POST http://localhost:8080/post
+Authorization: Bearer VYbRjBw4NMtNwgFQLLWpcV1s16a+PZyklTk5zxxeBmeVWJHtSTBhibbGoiACKQ3M
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+\#تکنولوژی
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_19-50-05_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/tech/2020-09-19_19-50-05_UTC.jpg
+--WebAppBoundary--
+###
+
+//HighTech 7
+POST http://localhost:8080/post
+Authorization: Bearer VYbRjBw4NMtNwgFQLLWpcV1s16a+PZyklTk5zxxeBmeVWJHtSTBhibbGoiACKQ3M
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+قسمت اول باتری_نانو_الماس : به نظر من در حوزه های #تکنولوژی از دو قسمت , #فناوری عقب مانده است .
+اول : همانطور که در پستهای قبلی گفته بودم فناوری زنوبات ها یا نانوربات های زیستی که برای درمان سرطانها, آلزایمر, پارکینسون, دیابت , تقویت سیستم ایمنی بدن در مقابله با انواع ویروس ها و ... کاربرد خواهد داشت .
+دوم : فناوری ساخت وشارژ باتری ها برای تامین انرژی از باتری موبایل ها گرفته تا خودروهای برقی تا هواپیماها تا موشکها تا باتری ماشین آلات گوناگون و مصارف پزشکی وجراحی و... تا ماهواره ها و #ایستگاه_فضایی مدار زمین , که بطور مداوم باید شارژ شوند یا تعویض گردند . آیا باتری بدون شارژ هم میتوان تولید کرد ؟ قسمت بعدی را مطالعه کنید !
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_19-52-43_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/tech/2020-09-19_19-52-43_UTC.jpg
+--WebAppBoundary--
+###
+
+//HighTech 8
+POST http://localhost:8080/post
+Authorization: Bearer VYbRjBw4NMtNwgFQLLWpcV1s16a+PZyklTk5zxxeBmeVWJHtSTBhibbGoiACKQ3M
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="content";
+Content-Type: text/plain
+
+پاور دراپ ( power drop )
+برای گرفتن شارژ وایرلس 😍
+نظرتون چیه ؟
+.
+.
+#تکنولوژی
+
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="2020-09-19_19-56-14_UTC.jpg"
+Content-Type: image/jpeg
+
+< C:/Users/[UserName]/Documents/DATA/tech/2020-09-19_19-56-14_UTC.jpg
+--WebAppBoundary--
+###

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Shediz</string>
+    <string name="username">User Name</string>
+    <string name="bio">Bio</string>
+
+    <string name="login_account">Login to account</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="want_account_private">Do you want your account private?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_account">Create account</string>
+    <string name="profile_pic">Profile picture</string>
+    <string name="bio_hint">Write something about yourself</string>
+
+    <string name="signing_in">Signing in…</string>
+    <string name="registering">Registering…</string>
+
+    <string name="settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="recommended">Recommended</string>
+    <string name="search">Search</string>
+    <string name="create_post">Create post</string>
+    <string name="profile">Profile</string>
+
+    <string name="from_gallery">From Gallery</string>
+    <string name="take_photo">Take photo</string>
+
+    <string name="num_likes">%1$s likes</string>
+    <string name="like_btn">Like button</string>
+    <string name="comment_btn">Comment button</string>
+    <string name="share_btn">Share button</string>
+    <string name="post_img">Post image</string>
+
+    <string name="followings">Followings</string>
+    <string name="followers">Followers</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="follow">Follow</string>
+    <string name="request_follow">Request follow</string>
+    <string name="un_follow">Un follow</string>
+
+    <string name="write_something">Write somethings…</string>
+    <string name="posts">Posts</string>
+    <string name="tags">Tags</string>
+    <string name="users">Users</string>
+
+    <string name="comments">Comments</string>
+    <string name="send_comment">Send comment</string>
+
+    <string name="post_now">Post now</string>
+    <string name="copy_text">Copy text</string>
+    <string name="copy_link">Copy link</string>
+    <string name="share_image">Share image</string>
+    <string name="delete_post">Delete post</string>
+
+    <string name="push_description">Notification for accept follow request</string>
+    <string name="push_text">%1$s requested to follow you!</string>
+    <string name="confirm_follow_request">Confirm follow request</string>
+    <string name="confirm_follow_text">Do you accept this follow request?</string>
+    <string name="follow_request_sent">Follow request sent</string>
+
+    <string name="delete_confirm">Delete confirm</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="save_exit">Save and Exit</string>
+    <string name="clear_history">Clear history</string>
+    <string name="logout">Logout</string>
+
+    <string name="sample_text">List UI is a very common thing in Android application. Pretty much every app has a list of some data shown to users. We use the recycler view to show this data in scrollable behavior. When using architecture components we store this data in the ViewModel (to survive configuration changes) in the form of LiveData(to maintain dynamicity). That data is fetched either from a local database or from some API</string>
+</resources>
